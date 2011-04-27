@@ -3,6 +3,13 @@
 " Just the basics to start off with
 "
 
+" Pathogen is the first cab off the rank
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+filetype off
+syntax on
+filetype plugin indent on
+
 " Initial stuff
 set nocompatible       "Not really necessary these days apparently
 "set modelines=0        "Not sure what this does - may need to change
