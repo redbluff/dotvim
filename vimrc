@@ -62,3 +62,7 @@ set colorcolumn=85
 set wildmenu
 set wildmode=list:longest
 
+"NERDtree - shortcut to open
+map <f2> :NERDTreeToggle<CR>
+
+
