@@ -65,4 +65,9 @@ set wildmode=list:longest
 "NERDtree - shortcut to open
 map <f2> :NERDTreeToggle<CR>
 
+"Store swap files in central location
+set dir=~/.vimswap//,/var/tmp//,/tmp//,.
+
+"Set undo to one directory
+set undodir=~/.vimundo
 
