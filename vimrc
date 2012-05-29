@@ -7,7 +7,8 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 filetype off
-syntax on
+"syntax on
+syntax enable
 filetype plugin indent on
 
 " Initial stuff
@@ -47,7 +48,8 @@ set hlsearch
 noremap <leader><space> :noh<cr>
 
 "Make the ; the same as the :
-noremap ; :
+"Actually prefer the normal map for this
+"noremap ; :
 
 "For a quicker escape use jj
 inoremap jj <esc>
@@ -71,3 +73,6 @@ set dir=~/.vimswap//,/var/tmp//,/tmp//,.
 "Set undo to one directory
 set undodir=~/.vimundo
 
+"Set Solarized as the default scheme
+set background=light
+colorscheme solarized
